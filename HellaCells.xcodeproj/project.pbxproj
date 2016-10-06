@@ -12,6 +12,8 @@
 		1B95508F1D59398500BBAE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B95508D1D59398500BBAE20 /* Main.storyboard */; };
 		1B9550911D59398500BBAE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9550901D59398500BBAE20 /* Assets.xcassets */; };
 		1B9550941D59398500BBAE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9550921D59398500BBAE20 /* LaunchScreen.storyboard */; };
+		83695BCB1DA6CC2E0018DC03 /* HellaMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83695BCA1DA6CC2E0018DC03 /* HellaMasterTableViewController.swift */; };
+		83695BCD1DA6CC440018DC03 /* HellaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83695BCC1DA6CC440018DC03 /* HellaDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1B9550901D59398500BBAE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B9550931D59398500BBAE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B9550951D59398500BBAE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83695BCA1DA6CC2E0018DC03 /* HellaMasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaMasterTableViewController.swift; sourceTree = "<group>"; };
+		83695BCC1DA6CC440018DC03 /* HellaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				1B9550891D59398500BBAE20 /* AppDelegate.swift */,
 				1B95508B1D59398500BBAE20 /* ViewController.swift */,
+				83695BCA1DA6CC2E0018DC03 /* HellaMasterTableViewController.swift */,
+				83695BCC1DA6CC440018DC03 /* HellaDetailViewController.swift */,
 				1B95508D1D59398500BBAE20 /* Main.storyboard */,
 				1B9550901D59398500BBAE20 /* Assets.xcassets */,
 				1B9550921D59398500BBAE20 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83695BCB1DA6CC2E0018DC03 /* HellaMasterTableViewController.swift in Sources */,
 				1B95508C1D59398500BBAE20 /* ViewController.swift in Sources */,
+				83695BCD1DA6CC440018DC03 /* HellaDetailViewController.swift in Sources */,
 				1B95508A1D59398500BBAE20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
